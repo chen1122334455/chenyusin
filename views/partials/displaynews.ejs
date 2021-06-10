@@ -1,0 +1,10 @@
+<% if (blogs.length >0 ) { %>
+    <% blogs.forEach(blogs => { %>
+        <h3>
+            <%= blogs.title %>
+        </h3>
+        <p>
+            <%= blogs.content %>
+        </p>
+        <% }) %>
+            <% } %>
